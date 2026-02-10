@@ -1,0 +1,43 @@
+# --- Logs & Runtime ---
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# --- Dependencies ---
+node_modules
+dist
+dist-ssr
+*.local
+
+# --- Python / Backend (CRITICAL ADDITIONS) ---
+# Virtual Environments (Do not upload these!)
+venv/
+env/
+.env
+.venv/
+
+# Python Cache (Junk files)
+__pycache__/
+*.py[cod]
+*$py.class
+
+# --- Large AI Model Files (Too big for GitHub) ---
+# You must ignore these or your push will fail (100MB+ limit)
+*.pth
+*.h5
+*.onnx
+
+# --- Editor directories and files ---
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
