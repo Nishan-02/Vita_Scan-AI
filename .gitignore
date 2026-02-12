@@ -27,7 +27,7 @@ __pycache__/
 
 # --- Large AI Model Files (Too big for GitHub) ---
 # You must ignore these or your push will fail (100MB+ limit)
-*.pth
+
 *.h5
 *.onnx
 
