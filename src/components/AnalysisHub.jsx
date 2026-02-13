@@ -41,7 +41,7 @@ const AnalysisHub = ({ userName }) => {
     formData.append("file", file);
 
     try {
-      const response = await fetch("https://vita-scan-ai.onrender.com", {
+      const response = await fetch("https://vita-scan-ai.onrender.com/predict", {
         method: "POST",
         body: formData,
       });
